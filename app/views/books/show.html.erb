@@ -1,0 +1,19 @@
+
+<div class="show">
+
+   <div class="flash">
+     <%= flash[:notice] %>
+   </div>
+
+   <div class="showbox">
+   　<div class="showtitle">Title:<%= @list.title %></div>
+     <div class="showbody">Body:<%= @list.body %></div>  
+   </div> 
+   
+
+
+<div class="next">
+ <%= link_to 'Edit',edit_book_path %> | <%= link_to 'Back',books_path %>
+</div>
+
+ </div>
